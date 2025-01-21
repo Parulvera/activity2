@@ -1,0 +1,17 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: white;
+}
+.a{
+    background-color: yellow;
+}
+.b{
+    background-color: blue;
+}
+.c{
+    background-color: green;
+}
+tr.hover{
+    background-color: green;
+}
