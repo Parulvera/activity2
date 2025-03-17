@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .summary {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+        }
+        .summary div {
+            padding: 10px;
+            background: #ddd;
+            border-radius: 5px;
+        }
+        .card {
+            background: #fff;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .card-header {
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .card-body {
+            margin: 10px 0;
+        }
+        .button {
+            background: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button.mark {
+            background: orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Welcome Back, Nitish Kumar!</div>
+        <div class="summary">
+            <div>Upcoming Class: 2</div>
+            <div>Marked Attendance: 3</div>
+            <div>Missed Attendance: 0</div>
+        </div>
+        <div class="card">
+            <div class="card-header">INT253 | WEB DEVELOPMENT IN PYTHON USING DJANGO</div>
+            <div class="card-body">Time: 10-11 AM</div>
+            <button class="button">View Attendance</button>
+        </div>
+        <div class="card">
+            <div class="card-header">INT253 | WEB DEVELOPMENT IN PYTHON USING DJANGO</div>
+            <div class="card-body">Time: 11-12 AM</div>
+            <button class="button">View Attendance</button>
+        </div>
+        <div class="card">
+            <div class="card-header">INT219 | FRONT END WEB DEVELOPER</div>
+            <div class="card-body">Time: 02-03 PM</div>
+            <button class="button">View Attendance</button>
+        </div>
+        <div class="card">
+            <div class="card-header">INT219 | FRONT END WEB DEVELOPER</div>
+            <div class="card-body">Time: 03-04 PM</div>
+            <button class="button mark">Mark Attendance</button>
+        </div>
+    </div>
+</body>
+</html>
