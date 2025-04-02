@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="mainheading">Welcome to Javascript DOM</h1>
+    <button onclick="changeHeading()">Change Heading</button>
+    <button onclick="paraChange()">Paragraph Change</button>
+
+
+    <script>
+        function changeHeading() {
+            document.getElementById('mainheading').innerHTML = 'Heading Changed';
+        }
+        function paraChange() {
+            document.getElementById('para').innerHTML = 'Paragraph Changed';
+        }
+        
+    </script>
+</body>
+</html>
